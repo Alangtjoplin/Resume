@@ -2,7 +2,7 @@ body{
     background: linear-gradient(to bottom right, #f0f4f8, #0061cf);
 
 }
-button {
+.button {
     display: inline-block;
     padding: 12px 24px;
     background: linear-gradient(to right, #0077b5, #575757); 
