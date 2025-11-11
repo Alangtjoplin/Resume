@@ -7,7 +7,12 @@
     </head>
 
     <body>
-
+        <p id="demo"></p>
+        <script>
+            var myJSON = '{ "name":"bob", "age":30, "city":"New York"}';
+            var myObj = JSON.parse(myJSON);
+            document.getElementById("demo").innerHTML = myObj.name
+        </script>
         <h1 id="title">Welcome to My Website</h1>
 
         <input type="checkbox">
